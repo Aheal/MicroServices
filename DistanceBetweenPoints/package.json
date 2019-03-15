@@ -18,5 +18,13 @@
   "bugs": {
     "url": "https://github.com/Aheal/MicroServices/issues"
   },
-  "homepage": "https://github.com/Aheal/MicroServices#readme"
+  "homepage": "https://github.com/Aheal/MicroServices#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0"
+  }
 }

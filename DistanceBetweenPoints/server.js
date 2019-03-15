@@ -1,9 +1,9 @@
 import express from 'express'
-import routes from './api/routes';
+var app = express();
+var port = process.env.PORT || 3000;
 
-const app = express(); 
-const port = process.env.PORTY || 3000; 
-routes(app); 
+var routes = require('./api/routes');
+routes(app);
 app.listen(port, () => {
-    console.log( `Server Started on port: ${port}`);
+   console.log('Server started on port: ' + port);
 });
